@@ -43,3 +43,8 @@ dnspython==2.3.0
 ffmpeg-python>=0.2.0
 openai==0.25.0
 git+https://github.com/Joelkb/cinemagoer
+python-Levenshtein
+python-telegram-bot==20.0
+pyrogram
+tgcrypto
+fuzzywuzzy

@@ -55,10 +55,10 @@ REF_PREMIUM = 30
 PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/+33ritSoHw0JkZTll'))
-request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/Patrick_Botz')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002395754080'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002393373626')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
-UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002305897172'))
+UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002393373626'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002393373626'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
